@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 plt.rcParams["font.family"] = "MS Gothic"
 
 # 1. 読み込み（シンプルに読み込む）
-df = pd.read_csv(r"C:\Users\河村樹正\Desktop\all_python\野球分析用\Game Results JP.csv", dtype="object", encoding="utf-8-sig",encoding_errors="ignore")
+df = pd.read_csv("Game Results JP".csv)
 # こう書く（コードと同じフォルダにCSVを置く場合）
 
 # 2. 列名の掃除（ここで "スコア" が '"スコア"' になっていても、一括で剥ぎ取る）
